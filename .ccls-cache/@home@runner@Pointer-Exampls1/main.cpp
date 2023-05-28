@@ -2,20 +2,27 @@
 using namespace std;
 
 int main(){
-
-  int a;
+  /*int a;
   double d;
   cout<<&a<<" size "<<sizeof(a) <<endl;
   cout<<&d<<" size "<<sizeof(d) <<endl; 
+  */
   
-  /*  int x,*p;
+  int x,*p;
     p=&x;
     x=5;
 
     cout<< x  <<" "<< *p <<endl;
     cout<< &x <<" "<<  p <<endl;
-    cout<< &p <<endl;*/
-
+    cout<< &p <<endl;
+   int b=6;
+   cout<< x  <<" "<< b << " "<< *p <<endl;
+    x++;
+   cout<< x  <<" "<< b << " "<< *p <<endl;
+    p=&b; *p=2;
+  cout<< x  <<" "<< b << " "<< *p <<endl;	
+  
+   
 /*Example Array*/
   /*
 int *ip;
